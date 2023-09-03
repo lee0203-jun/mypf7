@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="./js/jquery-1.8.3.min.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/index.js"></script>
+
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="logo"><a href=""></a></div>
+            <div class="gnb">
+                <ul class="lgnb clearfix">
+                    <li><a href="">남성</a>
+                      <ul class="depth2 clearfix">
+                        <li><a href="#">의류 ></a>
+                          <ul class="depth3">
+                            <li><a href="#">쉘 재킷</a></li>
+                            <li><a href="#">인슐레이션 재킷</a></li>
+                            <li><a href="#">팬츠</a></li>
+                            <li><a href="#">플리스</a></li>
+                            <li><a href="#">베이스 레이어</a></li>
+                            <li><a href="#">셔츠 & 탑</a></li>
+                            <li><a href="#">쇼츠</a></li>
+                          </ul>
+                        </li><!-- 의류 -->
+                        <li><a href="#">배낭 ></a>
+                          <ul class="depth3">
+                            <li><a href="#">데이팩</a></li>
+                            <li><a href="#">멀티 데이팩</a></li>
+                            <li><a href="#">여행 & 라이프</a></li>
+                          </ul>
+                        </li><!-- 배낭 -->
+                        <li><a href="#">풋웨어 ></a>
+                          <ul class="depth3">
+                            <li><a href="">부츠</a></li>
+                            <li><a href="">슈즈</a></li>
+                          </ul>
+                        </li><!-- 풋웨어 -->
+                        <li><a href="">클라이밍 장비 ></a>
+                          <ul class="depth3">
+                            <li><a href="">하네스</a></li>
+                            <li><a href="">로프백</a></li>
+                            <li><a href="">쵸크백</a></li>
+                          </ul>
+                        </li><!-- 클라이밍 장비 -->
+                        <li><a href="">엑세서리 ></a>
+                          <ul class="depth3">
+                            <li><a href="">장갑</a></li>
+                            <li><a href="">모자</a></li>
+                            <li><a href="">기타악세서리</a></li>
+                          </ul>
+                        </li><!-- 엑세서리 -->
+                      </ul>
+                    </li><!-- 남성 -->
+                    <li><a href="">여성</a>
+                      <ul class="depth2 clearfix">
+                        <li><a href="#">의류 ></a>
+                          <ul class="depth3">
+                            <li><a href="#">쉘 재킷</a></li>
+                            <li><a href="#">인슐레이션 재킷</a></li>
+                            <li><a href="#">팬츠</a></li>
+                            <li><a href="#">플리스</a></li>
+                            <li><a href="#">베이스 레이어</a></li>
+                            <li><a href="#">셔츠 & 탑</a></li>
+                            <li><a href="#">쇼츠</a></li>
+                          </ul>
+                        </li><!-- 의류 -->
+                        <li><a href="#">배낭 ></a>
+                          <ul class="depth3">
+                            <li><a href="#">데이팩</a></li>
+                            <li><a href="#">멀티 데이팩</a></li>
+                            <li><a href="#">여행 & 라이프</a></li>
+                          </ul>
+                        </li><!-- 배낭 -->
+                        <li><a href="#">풋웨어 ></a>
+                          <ul class="depth3">
+                            <li><a href="">부츠</a></li>
+                            <li><a href="">슈즈</a></li>
+                          </ul>
+                        </li><!-- 풋웨어 -->
+                        <li><a href="">클라이밍 장비 ></a>
+                          <ul class="depth3">
+                            <li><a href="">하네스</a></li>
+                            <li><a href="">로프백</a></li>
+                            <li><a href="">쵸크백</a></li>
+                          </ul>
+                        </li><!-- 클라이밍 장비 -->
+                        <li><a href="">엑세서리 ></a>
+                          <ul class="depth3">
+                            <li><a href="">장갑</a></li>
+                            <li><a href="">모자</a></li>
+                            <li><a href="">기타악세서리</a></li>
+                          </ul>
+                        </li><!-- 엑세서리 -->
+                      </ul>
+                    </li>
+                    <li><a href="">이벤트</a></li>
+                    <li><a href="">OUTLET</a></li>
+                    <li><a href="">EXPLORE</a></li>
+                </ul>
+                <ul class="rgnb clearfix">
+                    <li><a href="">로그인</a></li>
+                    <li><a href="">마이페이지</a></li>
+                    <li><a href="">고객센터</a></li>
+                    <li><a href=""><img src="./img/search.svg" alt=""></a></li>
+                    <li><a href=""><img src="./img/bag.svg" alt=""></a></li>
+                    <li><a href=""><img src="./img/Cart.svg" alt=""></a></li>
+                </ul>
+            </div> <!-- gnb -->
+        </header>
+        <div class="main_v">
+            <h1>THIS IS<br>WHO WE ARE</h1>
+            <div class="line"></div>
+            <P>아크테릭스는 언제나 혁신을 실현하려<br>는 의지와 신념으로 설립되었습니다.</P>
+            <div #swiperref="" class="swiper swiper4 swiper-initialized swiper-horizontal swiper-backface-hidden">
+              <div class="swiper-wrapper" id="swiper-wrapper-dfeaa10d23fb3fd99" aria-live="polite" style="transition-duration: 0ms; transform: translate3d(380px, 0px, 0px);">
+                <div class="swiper-slide sic1 swiper-slide-active" role="group" aria-label="1 / 4" style="width: 350px; margin-right: 30px;">
+                  <div class="topvim"></div>
+                  <div class="top_img">
+                    <span>클릭</span>
+                </div>
+                  <div class="videoWrap"><video src="./img/video4.mp4" autoplay loop muted></video>
+                  <span class="close">닫기</span>
+                </div><!-- videoWrap -->
+                
+              </div>
+                <div class="swiper-slide sic2 swiper-slide-next" role="group" aria-label="2 / 4" style="width: 350px; margin-right: 30px;">
+                  <div class="topvim"></div>
+                  <div class="top_img">
+                    <span>클릭</span>
+                </div>
+                  <div class="videoWrap"><video src="./img/video4.mp4" autoplay loop muted></video>
+                  <span class="close">닫기</span>
+                </div><!-- videoWrap -->
+              </div>
+                <div class="swiper-slide sic3" role="group" aria-label="3 / 4" style="width: 350px; margin-right: 30px;">
+                  <div class="topvim"></div>
+                  <div class="top_img">
+                    <span>클릭</span>
+                </div>
+                  <div class="videoWrap"><video src="./img/video4.mp4" autoplay loop muted></video>
+                  <span class="close">닫기</span>
+                </div><!-- videoWrap -->
+              </div>
+                <div class="swiper-slide sic4" role="group" aria-label="4 / 4" style="width: 350px; margin-right: 30px;">
+                  <div class="topvim"></div>
+                  <div class="top_img">
+                    <span>클릭</span>
+                </div>
+                  <div class="videoWrap"><video src="./img/video4.mp4" autoplay loop muted></video>
+                  <span class="close">닫기</span>
+                </div><!-- videoWrap -->
+              </div>
+             
+              
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        </div><!-- main_v -->
+        <section class="sec1 clearfix">
+          <div class="men box1600">
+            <div class="menvim">
+            </div>
+           <div class="mvimtxt">
+              <p><a href="#">Shop Now</a></p>
+            </div>
+              <div class="menimg">
+                <img src="./img/AJNSMX7339_14_view.png" alt="">
+              </div>
+             <div class="mentxt">
+              <h3>Mens</h3>
+              <p><a href="#">Shop Now</a></p>
+              <div class="tricon">
+                <img src="./img/Group 131.png" alt="">
+              </div>
+              </div>
+          </div>
+          <div class="women box1600">
+            <div class="womenvim">
+            </div>
+           <div class="wvimtxt">
+              <p><a href="#">Shop Now</a></p>
+            </div>
+              <div class="womenimg">
+                <img src="./img/AJNSWX7054_01_viewXXCC.png" alt="">
+              </div>
+              <div class="womentxt">
+              <h3>Womens</h3>
+              <div class="womensub">
+              <p>Shop Now</p>
+              <div class="tricon">
+                <img src="./img/Group 131.png" alt="">
+              </div>
+            </div>
+            </div>
+          </div>
+      </section><!-- sec1 -->
+        <section class="sec2">
+            <!-- Slider main container -->
+<div class="swiper swiper1">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide pic1">
+        <div class="ptxt">
+        <h2>LUXURY LINE</h2>
+        <p>최고급 자동차 가죽과 장인의 손길,<br>
+            컨티뉴가 업사이클링 하는 명차를 만나보세요</p>
+          </div>
+            <img class="tem" src="./img/ABNSUX6933_04_view-11.png" alt="">
+      </div>
+      <div class="swiper-slide pic2">
+        <div class="ptxt">
+        <h2>LUXURY LINE</h2>
+        <p>최고급 자동차 가죽과 장인의 손길,<br>
+            컨티뉴가 업사이클링 하는 명차를 만나보세요</p>
+          </div>
+            <img class="tem" src="./img/ABNSUX6933_04_view-3.png" alt="">
+      </div>
+      <div class="swiper-slide pic3">
+        <div class="ptxt">
+        <h2>LUXURY LINE</h2>
+        <p>최고급 자동차 가죽과 장인의 손길,<br>
+            컨티뉴가 업사이클링 하는 명차를 만나보세요</p>
+          </div>
+            <img class="tem" src="./img/ABNSUX6933_04_view-2.png" alt="">
+      </div>
+      <div class="swiper-slide pic4">
+        <div class="ptxt">
+        <h2>LUXURY LINE</h2>
+        <p>최고급 자동차 가죽과 장인의 손길,<br>
+            컨티뉴가 업사이클링 하는 명차를 만나보세요</p>
+          </div>
+            <img class="tem" src="./img/ABNSUX6933_04_view-1.png" alt="">
+    </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination">
+     <!-- <span class="swiper-pagination-current">1</span> / <span class="swiper-pagination-total">7</span></div> -->
+    </div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> 
+  
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+        </section><!-- sec2 -->
+        <section class="sec3">
+            <h2>최근 들어온 신상품</h2>
+            <div class="shoptxt">
+            <p>Shop Now</p>
+            <div class="tricon">
+              <img src="./img/Group 131.png" alt="">
+            </div>
+          </div>
+          
+          <!-- Slider main container -->
+<div class="swiper swiper2">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide bic1">
+        <div class="bimg"></div>
+       <div class="btxt">
+        <h3>[SS23] 알파 SV 재킷 남성</h3>
+        <p>₩1,250,000
+        </p>
+      </div>
+      </div>
+      <div class="swiper-slide bic2">
+        <div class="bimg"></div>
+        <div class="btxt">
+        <h3>[SS23] 알파 SV 재킷 남성</h3>
+        <p>₩1,250,000
+        </p>
+      </div>
+      </div>
+      <div class="swiper-slide bic3">
+        <div class="bimg"></div>       
+        <div class="btxt">
+        <h3>[SS23] 알파 SV 재킷 남성</h3>
+        <p>₩1,250,000
+        </p>
+      </div>
+      </div>
+      <div class="swiper-slide bic4">
+        <div class="bimg"></div>       
+        <div class="btxt">
+        <h3>[SS23] 알파 SV 재킷 남성</h3>
+        <p>₩1,250,000
+        </p>
+      </div>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    
+  
+    
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+        </section><!-- sec3 -->
+        <section class="sec4 clearfix">
+          <div class="box1"  data-aos="fade-right" data-aos-duration="1000"></div>
+          <div class="txt4" >
+          <p data-aos="fade-up" data-aos-duration="1400">“제품은 디자인 센터에서 만들<br>어집니다. 하지만 모든 영감, 모<br>든 해법은 산에서 태어나죠.”
+          </p>
+        </div>
+          <div class="box2" data-aos="fade-left" data-aos-duration="1200"></div>
+        </section><!-- sec4 -->
+        <section class="sec5">
+            <h2>카테고리 BEST 상품</h2>
+            <div class="sub_text">
+                <ul class="clearfix">
+                    <li><a href="#">모자</a>
+                    <div class="won"></div>
+                    </li>
+                    <li><a href="#">신발</a>
+                      <div class="won"></div>
+                    </li>
+                    <li><a href="#">악세서리</a>
+                      <div class="won"></div>
+                    </li>
+                    <li><a href="#">데이팩</a>
+                      <div class="won"></div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Slider main container -->
+<div class="swiper swiper3">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide vic1">
+      <div class="vimg"></div>
+      <div class="vtxt">
+      <h3>[SS23] 버드 커브드 브림 트러커 햇
+      </h3>
+        <p>₩70,000</p>
+      </div>  
+      </div>
+      <div class="swiper-slide vic2">
+      <div class="vimg"></div>
+      <div class="vtxt">  
+      <h3>[SS23] 칼리디움 5 패널 햇
+      </h3>
+        <p>₩70,000
+        </p>
+      </div>
+      </div>
+      <div class="swiper-slide vic3">
+       <div class="vimg"></div>
+       <div class="vtxt"> 
+       <h3>[SS23] 칼리디움 5 패널 햇
+      </h3>
+        <p>₩70,000
+        </p>
+      </div>
+      </div>
+      <div class="swiper-slide vic4">
+        <div class="vimg"></div>
+        <div class="vtxt">
+        <h3>[SS23] 칼리디움 5 패널 햇
+        </h3>
+        <p>₩70,000
+        </p>
+      </div>
+      </div>
+    </div>
+  </div>
+        </section><!-- sce5 -->
+        <section class="sec6 clearfix">
+          <div class="sec6_con1">
+            <div class="conimg">
+              <img src="./img/inspiration-dan--img2.jpg" alt="">
+            </div>
+            <div class="vim1">
+            </div>  
+            <div class="vimtxt">
+                지속가능성을 위한<br>아크테릭스의 노력
+                <div class="trline"></div>
+              </div>
+            <div class="con1txt">
+            <h3>지속가능성</h3>
+              <p>Our Sustainability</p>
+              <div class="tricon">
+                <img src="./img/Group 131.png" alt="">
+              </div>
+              </div>
+          </div>
+          <div class="sec6_con2">
+            <div class="conimg">
+              <img src="./img/inspiration-dan--img3.jpg" alt="">
+            </div>
+            <div class="vim2">
+            </div>  
+            <div class="vimtxt">
+                지속가능성을 위한<br>아크테릭스의 노력
+                <div class="trline"></div>
+              </div> 
+            <div class="con2txt">
+            <h3>문밖의 세상</h3>
+              <p>Outer Peace</p>
+              <div class="tricon">
+                <img src="./img/Group 131.png" alt="">
+              </div>
+              </div>
+          </div>
+          <div class="sec6_con3">
+            <div class="conimg">
+              <img src="./img/inspiration-dan--img4.jpg" alt="">
+            </div>
+            <div class="vim3">
+            </div>  
+            <div class="vimtxt">
+                지속가능성을 위한<br>아크테릭스의 노력
+                <div class="trline"></div>
+              </div> 
+            <div class="con3txt">
+            <h3>디자인</h3>
+            <div class="con3sub clearfix">
+              <p>Obesessive Design</p>
+              <div class="tricon">
+                <img src="./img/Group 131.png" alt="">
+              </div>
+              </div>
+              </div> 
+          </div>
+      </section>
+        <footer>
+          <div class="ftvim">
+          </div>
+          <div class="fttxt1 clearfix">
+            <div class="fttxt_1 clearfix">
+              <h3><a href="">Customer Center</a></h3>
+              <ul class="ftsub1">
+                <li><a href="">공지사항</a></li>
+                <li><a href="">문의게시판</a></li>
+                <li><a href="">상품리뷰</a></li>
+                <li><a href="">이벤트 / 프로모션</a></li>
+                <li><a href="">A/S 문의</a></li>
+              </ul>
+              <ul class="ftsub2">
+                <li><a href="#">배송현황</a></li>
+                <li><a href="#">정품등록</a></li>
+                <li><a href="#">반품환불</a></li>
+              </ul>
+            </div>
+            <div class="fttxt_2">
+              <h3><a href="">Contact Us</a></h3>
+              <ul class="ftsub3">
+                <li><a href="">02-753-1233</a></li>
+                <li><a href="">월-금, 09:00-18:00 (주말/공휴일 제외)</a></li>
+                <li><a href="">점심시간 12:00-13:00</a></li>
+                <li><a href="">도움이 필요하신가요?CLICK</a></li>
+              </ul>
+            </div>
+            <div class="fttxt_3">
+              <div class="sns">
+              <h3>YOUTUBE</h3>
+              <h3>INSTGRAM</h3>
+              </div>
+               <ul class="ftsub4">
+                <li><a href="">이용안내</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">개인정보취급방침</a></li>
+              </ul>
+            </div>
+            </div>
+            <div class="fttxt2">
+              <div class="ftlogo"></div>
+              <h3>Company Info</h3>
+              <ul class="ftsub5">
+                <li><a href="">(주)넬슨스포츠 </a></li>
+                <li><a href="">대표자 : 정호진</a></li>
+                <li><a href="">주소 : 경기도 고양시 일산동구 호수로 358-39 (동문타워I) 710호,711호,712호 (주)넬슨스포츠</a></li>
+                <li><a href="">전화 : 1644-1708 </a></li>
+                <li><a href="">사업자등록번호 : 128-81-33017 [사업자정보확인] </a></li>
+                <li><a href="">통신판매업신고번호 : 2014-고양일산동-0765</a></li>
+                <li><a href="">개인정보보호책임자 : 정해빈 (info@nelson.co.kr)</a></li>
+              </ul>
+            </div>
+          
+        </footer>
+    </div>
+    
+    <script>
+      const swiper1 = new Swiper('.swiper.swiper1', {
+       
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+            // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  spaceBetween: 60,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+      },
+        });
+      
+    </script>
+    <script>
+      const swiper2 = new Swiper('.swiper2', {
+      // Optional parameters
+      // direction: 'vertical',
+      loop: true,
+    
+      
+    
+     
+      slidesPerView: 1,
+      spaceBetween: 10,
+     
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+    
+     
+    </script>
+    <script>
+      const swiper3 = new Swiper('.swiper3', {
+       // Optional parameters
+      // direction: 'vertical',
+      loop: true,
+    
+      
+    
+     
+      slidesPerView: 1,
+      spaceBetween: 10,
+     
+      breakpoints: {
+        "@0.00": {
+          slidesPerView: 1,
+          spaceBetween: 10,
+        },
+        "@0.75": {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        "@1.00": {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        "@1.50": {
+          slidesPerView: 4,
+          spaceBetween: 50,
+        },
+      },
+    });
+    </script>
+
+<script>
+
+var swiper4 = new Swiper(".swiper4", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var appendNumber = 4;
+    var prependNumber = 1;
+    document
+      .querySelector(".prepend-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide([
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        ]);
+      });
+    document
+      .querySelector(".prepend-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide(
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide(
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide([
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        ]);
+      });
+  
+</script>
+
+<script>
+  AOS.init();
+</script>
+  </body>
+</html>
